@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A6338CA0-0B5A-9CD9-B997-573F9F664D26" schemaObject="5E8A9522-EEB3-08B5-A119-0431C0BDB862" name="V_GOGEK">
+<sourceConnName>로컬-HR</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>V_GOGEK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 02:40:56 UTC</createdTime>
+<ownerDesignName>spring_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="G_CODE" id="74B646EA-B8AA-2D6C-2449-AF1C993FCEF2">
+<sourceConnName>로컬-HR</sourceConnName>
+<sourceObjSchema>V_GOGEK</sourceObjSchema>
+<sourceObjName>G_CODE</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 02:40:56 UTC</createdTime>
+<ownerDesignName>spring_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="G_NAME" id="372F2AFA-CCAC-9F53-62FD-DF22DD5327AD">
+<sourceConnName>로컬-HR</sourceConnName>
+<sourceObjSchema>V_GOGEK</sourceObjSchema>
+<sourceObjName>G_NAME</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 02:40:56 UTC</createdTime>
+<ownerDesignName>spring_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="G_AGE" id="C5A254E4-CF0E-20D7-7BBC-647FB04E56DC">
+<sourceConnName>로컬-HR</sourceConnName>
+<sourceObjSchema>V_GOGEK</sourceObjSchema>
+<sourceObjName>G_AGE</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 02:40:56 UTC</createdTime>
+<ownerDesignName>spring_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="G_ADDR" id="D3F12F0B-8EF7-0ED7-D7B0-225C950D408F">
+<sourceConnName>로컬-HR</sourceConnName>
+<sourceObjSchema>V_GOGEK</sourceObjSchema>
+<sourceObjName>G_ADDR</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 02:40:56 UTC</createdTime>
+<ownerDesignName>spring_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="G_TEL" id="F0681E74-43D0-E90E-CE76-2A0C79290DC4">
+<sourceConnName>로컬-HR</sourceConnName>
+<sourceObjSchema>V_GOGEK</sourceObjSchema>
+<sourceObjName>G_TEL</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 02:40:56 UTC</createdTime>
+<ownerDesignName>spring_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E4DEC939-8B77-1A6F-D214-9B24265D557A" name="PK_V_GOGEK_CODE">
+<sourceConnName>로컬-HR</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>PK_V_GOGEK_CODE</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 02:40:59 UTC</createdTime>
+<ownerDesignName>spring_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74B646EA-B8AA-2D6C-2449-AF1C993FCEF2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BCA9ED76-56B6-A60C-8213-C3FD7C70CE67" schemaObject="5E8A9522-EEB3-08B5-A119-0431C0BDB862" name="PK_V_GOGEK_CODE">
+<sourceConnName>로컬-HR</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>PK_V_GOGEK_CODE</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 02:40:58 UTC</createdTime>
+<ownerDesignName>spring_model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74B646EA-B8AA-2D6C-2449-AF1C993FCEF2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

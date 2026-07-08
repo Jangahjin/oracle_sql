@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="75ABC7C0-7F24-5458-3039-AA918BE541B2" containerWithKeyObject="85D3E1B1-ECBE-CF00-68A7-8583DC2C8E83" localFKIndex="E3CCB785-5E2F-318F-6D63-F4C51292B8CA" name="employees2_departmentid_FK">
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 03:25:39 UTC</createdTime>
+<ownerDesignName>spring_model</ownerDesignName>
+<referredTableLongName>departmentid</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>CDBD8D5F-284C-02F8-AF82-6827014741AD</referredTableID>
+<keyObject>D8FA21C2-E137-BC2A-4027-49A6C947F79E</keyObject>
+<referredKeyID>D8FA21C2-E137-BC2A-4027-49A6C947F79E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>deptid</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

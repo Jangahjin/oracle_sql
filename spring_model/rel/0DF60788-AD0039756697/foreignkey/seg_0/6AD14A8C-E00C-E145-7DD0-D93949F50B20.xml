@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6AD14A8C-E00C-E145-7DD0-D93949F50B20" containerWithKeyObject="30BD4CDD-84E3-88F1-2138-C0F1A2025F9A" localFKIndex="935C6A4E-D454-D3B8-38BE-9081A12694E5" name="FK_LEND_RETURE_GOGEK_G_CODE">
+<sourceConnName>로컬-HR</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>FK_LEND_RETURE_GOGEK_G_CODE</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 02:40:59 UTC</createdTime>
+<ownerDesignName>spring_model</ownerDesignName>
+<referredTableLongName>HR.V_GOGEK</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A6338CA0-0B5A-9CD9-B997-573F9F664D26</referredTableID>
+<keyObject>E4DEC939-8B77-1A6F-D214-9B24265D557A</keyObject>
+<referredKeyID>E4DEC939-8B77-1A6F-D214-9B24265D557A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>G_CODE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

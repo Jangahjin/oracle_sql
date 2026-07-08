@@ -1,0 +1,160 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="30BD4CDD-84E3-88F1-2138-C0F1A2025F9A" schemaObject="5E8A9522-EEB3-08B5-A119-0431C0BDB862" name="LEND_RETURN">
+<sourceConnName>로컬-HR</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>LEND_RETURN</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 02:40:56 UTC</createdTime>
+<ownerDesignName>spring_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="LR_CODE" id="E10D13B9-0216-7E79-7D0D-1016F64C4C33">
+<sourceConnName>로컬-HR</sourceConnName>
+<sourceObjSchema>LEND_RETURN</sourceObjSchema>
+<sourceObjName>LR_CODE</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 02:40:56 UTC</createdTime>
+<ownerDesignName>spring_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="G_CODE" id="3B930AF5-B63C-6473-BE0B-62B5986E9D0A">
+<sourceConnName>로컬-HR</sourceConnName>
+<sourceObjSchema>LEND_RETURN</sourceObjSchema>
+<sourceObjName>G_CODE</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 02:40:56 UTC</createdTime>
+<ownerDesignName>spring_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6AD14A8C-E00C-E145-7DD0-D93949F50B20" referredColumn="74B646EA-B8AA-2D6C-2449-AF1C993FCEF2"/>
+</associations>
+</Column>
+<Column name="V_CODE" id="C62B9BDD-006B-055E-3985-B6AD8294A6D5">
+<sourceConnName>로컬-HR</sourceConnName>
+<sourceObjSchema>LEND_RETURN</sourceObjSchema>
+<sourceObjName>V_CODE</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 02:40:56 UTC</createdTime>
+<ownerDesignName>spring_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="353EAB67-28FC-3613-8C80-34B7EA7961AB" referredColumn="C0BAB6AE-EA0B-311A-800D-BA07BF8DF66B"/>
+</associations>
+</Column>
+<Column name="L_DATE" id="D7DFC633-2341-10FD-A6F6-AE6F890DB267">
+<sourceConnName>로컬-HR</sourceConnName>
+<sourceObjSchema>LEND_RETURN</sourceObjSchema>
+<sourceObjName>L_DATE</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 02:40:56 UTC</createdTime>
+<ownerDesignName>spring_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="R_PLAN_DATE" id="30C49C75-A453-7764-294B-8B269E75F4E5">
+<sourceConnName>로컬-HR</sourceConnName>
+<sourceObjSchema>LEND_RETURN</sourceObjSchema>
+<sourceObjName>R_PLAN_DATE</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 02:40:56 UTC</createdTime>
+<ownerDesignName>spring_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="L_TOTAL_PAY" id="FDC63BED-53BF-1245-1E0C-0BBE12EFEAFD">
+<sourceConnName>로컬-HR</sourceConnName>
+<sourceObjSchema>LEND_RETURN</sourceObjSchema>
+<sourceObjName>L_TOTAL_PAY</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 02:40:56 UTC</createdTime>
+<ownerDesignName>spring_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,7,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E4F09755-C0B7-427E-33E2-B876A19993DC" name="PK_LEND_RETURN_LR_CODE">
+<sourceConnName>로컬-HR</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>PK_LEND_RETURN_LR_CODE</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 02:40:59 UTC</createdTime>
+<ownerDesignName>spring_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E10D13B9-0216-7E79-7D0D-1016F64C4C33"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FABCAC56-BAF2-8240-90A9-DB3DAB7E69E8" schemaObject="5E8A9522-EEB3-08B5-A119-0431C0BDB862" name="PK_LEND_RETURN_LR_CODE">
+<sourceConnName>로컬-HR</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>PK_LEND_RETURN_LR_CODE</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 02:40:58 UTC</createdTime>
+<ownerDesignName>spring_model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E10D13B9-0216-7E79-7D0D-1016F64C4C33"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="935C6A4E-D454-D3B8-38BE-9081A12694E5" name="FK_LEND_RETURE_GOGEK_G_CODE">
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 02:40:59 UTC</createdTime>
+<ownerDesignName>spring_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B930AF5-B63C-6473-BE0B-62B5986E9D0A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C2D6C0C0-CBE6-2B78-597C-B512CF510381" name="FK_LEND_RETURE_VIDEO_V_CODE">
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 02:40:59 UTC</createdTime>
+<ownerDesignName>spring_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C62B9BDD-006B-055E-3985-B6AD8294A6D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

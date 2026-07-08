@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="LEND_RETURN" directorySegmentName="seg_0" id="30BD4CDD-84E3-88F1-2138-C0F1A2025F9A">
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 02:40:56 UTC</createdTime>
+<ownerDesignName>spring_model</ownerDesignName>
+<schemaObject>5E8A9522-EEB3-08B5-A119-0431C0BDB862</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>1EF0CA2B-C76E-F34C-58D3-BCF50F70D88D</segment>
+<tableSpace>FD2D32B3-0FAA-2559-75D4-2707CE1A16D2</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="R_PLAN_DATE" id="30C49C75-A453-7764-294B-8B269E75F4E5">
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 02:40:56 UTC</createdTime>
+<ownerDesignName>spring_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="G_CODE" id="3B930AF5-B63C-6473-BE0B-62B5986E9D0A">
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 02:40:56 UTC</createdTime>
+<ownerDesignName>spring_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="V_CODE" id="C62B9BDD-006B-055E-3985-B6AD8294A6D5">
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 02:40:56 UTC</createdTime>
+<ownerDesignName>spring_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="L_DATE" id="D7DFC633-2341-10FD-A6F6-AE6F890DB267">
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 02:40:56 UTC</createdTime>
+<ownerDesignName>spring_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LR_CODE" id="E10D13B9-0216-7E79-7D0D-1016F64C4C33">
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 02:40:56 UTC</createdTime>
+<ownerDesignName>spring_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="L_TOTAL_PAY" id="FDC63BED-53BF-1245-1E0C-0BBE12EFEAFD">
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 02:40:56 UTC</createdTime>
+<ownerDesignName>spring_model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_LEND_RETURN_LR_CODE" id="FABCAC56-BAF2-8240-90A9-DB3DAB7E69E8">
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 02:40:58 UTC</createdTime>
+<ownerDesignName>spring_model</ownerDesignName>
+<schemaObject>5E8A9522-EEB3-08B5-A119-0431C0BDB862</schemaObject>
+<segment>D6B34C43-5AE4-596C-C439-ED6B06ACA4EB</segment>
+<tableSpace>FD2D32B3-0FAA-2559-75D4-2707CE1A16D2</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_LEND_RETURE_GOGEK_G_CODE" id="935C6A4E-D454-D3B8-38BE-9081A12694E5">
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 02:40:59 UTC</createdTime>
+<ownerDesignName>spring_model</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_LEND_RETURE_VIDEO_V_CODE" id="C2D6C0C0-CBE6-2B78-597C-B512CF510381">
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 02:40:59 UTC</createdTime>
+<ownerDesignName>spring_model</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_LEND_RETURN_LR_CODE" id="E4F09755-C0B7-427E-33E2-B876A19993DC">
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 02:40:59 UTC</createdTime>
+<ownerDesignName>spring_model</ownerDesignName>
+<segment>D6B34C43-5AE4-596C-C439-ED6B06ACA4EB</segment>
+<tableSpace>FD2D32B3-0FAA-2559-75D4-2707CE1A16D2</tableSpace>
+<existingIndex>FABCAC56-BAF2-8240-90A9-DB3DAB7E69E8</existingIndex>
+<indexSegment>D6B34C43-5AE4-596C-C439-ED6B06ACA4EB</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

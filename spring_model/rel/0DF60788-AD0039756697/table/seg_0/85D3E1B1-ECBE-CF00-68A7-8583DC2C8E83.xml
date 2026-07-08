@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="85D3E1B1-ECBE-CF00-68A7-8583DC2C8E83" name="employees2">
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 03:15:51 UTC</createdTime>
+<ownerDesignName>spring_model</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="empid" id="829F4227-8EFD-16A0-F958-1D956175162E">
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 03:16:32 UTC</createdTime>
+<ownerDesignName>spring_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="empname" id="E31847E7-0EE8-A598-BD0D-3F227481EA93">
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 03:17:03 UTC</createdTime>
+<ownerDesignName>spring_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4 CHAR</dataTypeSize>
+<ownDataTypeParameters>4 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="empemail" id="AE2D6903-611E-8584-B7E8-087583E8BD23">
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 03:17:50 UTC</createdTime>
+<ownerDesignName>spring_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4 CHAR</dataTypeSize>
+<ownDataTypeParameters>4 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="deptid" id="306D0566-2CA7-C284-ADB8-2B34D8916F57">
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 03:18:41 UTC</createdTime>
+<ownerDesignName>spring_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="75ABC7C0-7F24-5458-3039-AA918BE541B2" referredColumn="AB5F3544-C664-7AFF-F849-EC905488908C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B3400BA4-DBB6-2B4B-9E4A-1A992A18C78A" name="employees2_PK">
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 03:16:32 UTC</createdTime>
+<ownerDesignName>spring_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="829F4227-8EFD-16A0-F958-1D956175162E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E3CCB785-5E2F-318F-6D63-F4C51292B8CA" name="employees2_departmentid_FK">
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 03:25:39 UTC</createdTime>
+<ownerDesignName>spring_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="306D0566-2CA7-C284-ADB8-2B34D8916F57"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

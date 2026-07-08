@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="departmentid" directorySegmentName="seg_0" id="CDBD8D5F-284C-02F8-AF82-6827014741AD">
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 03:02:06 UTC</createdTime>
+<ownerDesignName>spring_model</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="deptloc" id="A0E9FC65-59B8-9679-C91F-C1D1D0BB7D2A">
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 03:14:05 UTC</createdTime>
+<ownerDesignName>spring_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="deptid" id="AB5F3544-C664-7AFF-F849-EC905488908C">
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 03:14:05 UTC</createdTime>
+<ownerDesignName>spring_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="deptphone" id="CE01661D-7DE1-D41A-D956-E4E8A139ECAF">
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 03:14:05 UTC</createdTime>
+<ownerDesignName>spring_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="deptname" id="D8EADE87-E661-FCC3-42E0-00A36B315EA0">
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 03:14:44 UTC</createdTime>
+<ownerDesignName>spring_model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="departmentid_PK" id="D8FA21C2-E137-BC2A-4027-49A6C947F79E">
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 03:24:55 UTC</createdTime>
+<ownerDesignName>spring_model</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

@@ -1,0 +1,169 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EE7782AE-98A0-7E1B-78A9-9BF3950D47B1" schemaObject="5E8A9522-EEB3-08B5-A119-0431C0BDB862" name="VIDEO">
+<sourceConnName>로컬-HR</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>VIDEO</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 02:40:56 UTC</createdTime>
+<ownerDesignName>spring_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="V_CODE" id="C0BAB6AE-EA0B-311A-800D-BA07BF8DF66B">
+<sourceConnName>로컬-HR</sourceConnName>
+<sourceObjSchema>VIDEO</sourceObjSchema>
+<sourceObjName>V_CODE</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 02:40:56 UTC</createdTime>
+<ownerDesignName>spring_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="V_TITLE" id="929DB6F6-4580-8175-F28B-C5054617DB84">
+<sourceConnName>로컬-HR</sourceConnName>
+<sourceObjSchema>VIDEO</sourceObjSchema>
+<sourceObjName>V_TITLE</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 02:40:56 UTC</createdTime>
+<ownerDesignName>spring_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="V_GENRE" id="2EBF1EF2-0B86-A24F-ACA4-0989A0408CCC">
+<sourceConnName>로컬-HR</sourceConnName>
+<sourceObjSchema>VIDEO</sourceObjSchema>
+<sourceObjName>V_GENRE</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 02:40:56 UTC</createdTime>
+<ownerDesignName>spring_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="V_PAY" id="D10042A8-84CD-3DA9-B216-763499B88999">
+<sourceConnName>로컬-HR</sourceConnName>
+<sourceObjSchema>VIDEO</sourceObjSchema>
+<sourceObjName>V_PAY</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 02:40:56 UTC</createdTime>
+<ownerDesignName>spring_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,7,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="V_LEND_STATE" id="2B39B977-DE3A-0206-88C8-3F133B81049D">
+<sourceConnName>로컬-HR</sourceConnName>
+<sourceObjSchema>VIDEO</sourceObjSchema>
+<sourceObjName>V_LEND_STATE</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 02:40:56 UTC</createdTime>
+<ownerDesignName>spring_model</ownerDesignName>
+<constraintName>CK_VIDEO_V_STATE</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<listOfValues>
+<valueDef value="&apos;N&apos;" description=""/>
+<valueDef value="&apos;Y&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="V_MAKE_COMPANY" id="D64CBB8E-F841-3FE8-46F7-B4DB1D1D3CA5">
+<sourceConnName>로컬-HR</sourceConnName>
+<sourceObjSchema>VIDEO</sourceObjSchema>
+<sourceObjName>V_MAKE_COMPANY</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 02:40:56 UTC</createdTime>
+<ownerDesignName>spring_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="V_MAKE_DATA" id="77C8B950-0AA1-8A20-E97C-BC40161EA7A2">
+<sourceConnName>로컬-HR</sourceConnName>
+<sourceObjSchema>VIDEO</sourceObjSchema>
+<sourceObjName>V_MAKE_DATA</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 02:40:56 UTC</createdTime>
+<ownerDesignName>spring_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="V_VIEW_AGE" id="DAB972D7-1915-9A13-2D9D-9B7AD5805CDD">
+<sourceConnName>로컬-HR</sourceConnName>
+<sourceObjSchema>VIDEO</sourceObjSchema>
+<sourceObjName>V_VIEW_AGE</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 02:40:56 UTC</createdTime>
+<ownerDesignName>spring_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="67DAE317-28A7-335F-9FB5-036DA3AEF3A8" name="PK_VIDEO_V_CODE">
+<sourceConnName>로컬-HR</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>PK_VIDEO_V_CODE</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 02:40:59 UTC</createdTime>
+<ownerDesignName>spring_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0BAB6AE-EA0B-311A-800D-BA07BF8DF66B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ECB26509-7C7E-EAB0-CD53-3D0F48DEE27F" schemaObject="5E8A9522-EEB3-08B5-A119-0431C0BDB862" name="PK_VIDEO_V_CODE">
+<sourceConnName>로컬-HR</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>PK_VIDEO_V_CODE</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 02:40:58 UTC</createdTime>
+<ownerDesignName>spring_model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0BAB6AE-EA0B-311A-800D-BA07BF8DF66B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

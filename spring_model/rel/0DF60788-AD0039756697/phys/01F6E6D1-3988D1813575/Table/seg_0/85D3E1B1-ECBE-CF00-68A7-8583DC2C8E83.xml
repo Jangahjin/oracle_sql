@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="employees2" directorySegmentName="seg_0" id="85D3E1B1-ECBE-CF00-68A7-8583DC2C8E83">
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 03:15:51 UTC</createdTime>
+<ownerDesignName>spring_model</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="deptid" id="306D0566-2CA7-C284-ADB8-2B34D8916F57">
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 03:18:41 UTC</createdTime>
+<ownerDesignName>spring_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="empid" id="829F4227-8EFD-16A0-F958-1D956175162E">
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 03:16:32 UTC</createdTime>
+<ownerDesignName>spring_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="empemail" id="AE2D6903-611E-8584-B7E8-087583E8BD23">
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 03:17:50 UTC</createdTime>
+<ownerDesignName>spring_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="empname" id="E31847E7-0EE8-A598-BD0D-3F227481EA93">
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 03:17:03 UTC</createdTime>
+<ownerDesignName>spring_model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="employees2_departmentid_FK" id="E3CCB785-5E2F-318F-6D63-F4C51292B8CA">
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 03:25:39 UTC</createdTime>
+<ownerDesignName>spring_model</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="employees2_PK" id="B3400BA4-DBB6-2B4B-9E4A-1A992A18C78A">
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 03:16:32 UTC</createdTime>
+<ownerDesignName>spring_model</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

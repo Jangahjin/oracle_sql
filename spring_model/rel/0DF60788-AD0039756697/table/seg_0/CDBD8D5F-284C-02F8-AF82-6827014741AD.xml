@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CDBD8D5F-284C-02F8-AF82-6827014741AD" name="departmentid">
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 03:02:06 UTC</createdTime>
+<ownerDesignName>spring_model</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="deptid" id="AB5F3544-C664-7AFF-F849-EC905488908C">
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 03:14:05 UTC</createdTime>
+<ownerDesignName>spring_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="deptloc" id="A0E9FC65-59B8-9679-C91F-C1D1D0BB7D2A">
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 03:14:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[부서의 위치입니다]]></commentInRDBMS>
+<ownerDesignName>spring_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="deptphone" id="CE01661D-7DE1-D41A-D956-E4E8A139ECAF">
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 03:14:05 UTC</createdTime>
+<ownerDesignName>spring_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14 BYTE</dataTypeSize>
+<ownDataTypeParameters>14 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="deptname" id="D8EADE87-E661-FCC3-42E0-00A36B315EA0">
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 03:14:44 UTC</createdTime>
+<ownerDesignName>spring_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D8FA21C2-E137-BC2A-4027-49A6C947F79E" name="departmentid_PK">
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 03:24:55 UTC</createdTime>
+<ownerDesignName>spring_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB5F3544-C664-7AFF-F849-EC905488908C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

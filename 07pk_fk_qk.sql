@@ -32,7 +32,7 @@ alter table emp02
  drop constraint nn_emp02_phone;
  
  desc emp02;
-
+-- 데이터 딕셔너리 (dba_XXXX, all_XXXX : user_table, user_constraints, user_cons_columne
 select * from user_constraints where table_name = 'EMP02';
 select * from user_cons_columns where table_name = 'EMP02';
 select * from user_tables;
@@ -87,10 +87,93 @@ create table emp(
   salary number(10),
   deptno number(10),
   constraint pk_emp_id Primary key (empid),
-  constraint fk_emp_dept_no FOREIGN key (deptno) REFERENCES dept(deptno)on delete CASCADE
+  constraint fk_emp_dept_no FOREIGN key (deptno) REFERENCES dept(deptno)
+);
+-- 제약조선수정 (fk_emp_dept_no 삭제를 하고 다시 재설정)
+alter table emp
+deop constraint fk-emp_dept_no;
+alter table emp
+ass constraint fk_emp_dept_no FOREIGN key(deptno) Referencse dept(
+
+insert into emp values(1,'kdj','부장',100000,null);
+insert into emp values(2,'kdj2',null,null,0);
+update emp set deptno = 50;
+select * from user_constraints;
+delete from where empid =1;
+
+-- check 제약조건
+
+-- emp 테이블에 gender char(1) defult'M' 추가하시오
+Alter table emp
+ add gender char(1) default 'M';
+ select * from emp;
+ 
+-- emp 테이블에 gender check 제약 조선을 넣어주세요 ('M', 'F', 'O')
+Alter table emp
+add constraint ck_emp_gender check (gender in('M', 'F', 'O'));
+
+desc emp;
+select * from user_constraints where table_name = 'EMP';
+select * from user_cons_columns where table_name = 'EMP';
+
+-- emp 테이블에 gender check 계약조건이 작동되는 확인할 것
+select * from emp;
+-- check 제약 조건에 위배가 된다.
+lnsert into emp values (3,'kdj3','부장3',1000000,null,'A');
+
+-- emp 테이블에 score number (4) 여기 체크 제약 조건을 걸어주시오 (0~100)
+-- 체크제약조건을 걸어주시오 (0~100)
+ALTER TABLE EMP
+ ADD SCORE NUMBER(4) CONSTRAINT CK_EMP_SCORE CHECK (SCORE BETWEEN 0 AND 100);
+
+insert into emp values(5, 'kdj5','부장5',1000000,40,'F',100);
+select * from emp;
+select * from dept;
+
+delete from dept where deptno = 40;
+
+-- foreign key 옵션 5가지
+--NO ACTION : 참조 테이블에 변화가 있어도 기본 테이블에는 아무 조취를 취하지 않는다.
+--CASCADE : 참조 테이블의 튜플이 삭제되면 기본 테이블의 관련 튜플도 삭제되고, 속성이 변경되면 관련 튜플의 속성 값도 모두 변경된다.
+--SET NULL : 참조 테이블에 변화가 있으면 기본 테이블의관련 튜플의 속성 값을 NULL로 변경한다.
+--SET DEFAULT : 참조 테이블에 변화가 있으면 기본 테이블의 관련 튜플의 속성 값을 기본값으로 변경한다.
+--RESTRICT : 참조 테이블에 변화(삭제,수정)가 있으면 , 기본테이블경우 데이터 삭제나 수정 불가
+
+
+
+
+-- 문제
+create table v_gogek(
+g_code number(5) not null,
+g_name varchar2(20) not null,
+g_age number(3),
+g_addr varchar2(50),
+g_tel varchar2(20),
+constraint pk_v_gogek_code primary key (g_code)
 );
 
-insert into emp values(1,'kdj','부장',100000,40);
-update emp set deptno = 30;
+create table video(
+    v_code number(5) not null,
+    v_title varchar2(50) not null,
+    v_genre varchar2(30),
+    v_pay number(7) not null,
+    v_lend_state number(1),
+    v_make_company varchar2(50),
+    v_make_data Date,
+    v_view_age number(1),
+    constraint pk_video_v_code primary key(v_code),
+    constraint ck_video_v_state check(v_lend_state in ('Y','N'))
+);
 
-select * from user_constraints;
+create table lend_return (
+lr_code number(5) not null,
+g_code number(5) not null,
+v_code number(5) not null,
+l_date date,
+r_plan_date date,
+l_total_pay number(7),
+constraint pk_lend_return_lr_code primary key (lr_code),
+CONSTRAINT fk_lend_reture_gogek_g_code FOREIGN key(g_code) REFERENCES v_gogek(g_code),
+CONSTRAINT fk_lend_reture_video_v_code FOREIGN key(v_code) REFERENCES video(v_code)
+);
+

@@ -76,6 +76,8 @@ insert into dept values(30, '관리과3', '서울3');
 insert into dept values(40, '관리과4', '서울4');
 select * from dept;
 
+delete from dept where deptno = 30;
+
 -- 사원테이블(emp) dept 참조테이블 설정
 drop table emp;
 create table emp(

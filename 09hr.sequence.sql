@@ -84,3 +84,15 @@ alter SEQUENCE dep_seq
 MAXVALUE 1000;
 
 select * from user_sequences;
+
+
+-- 시퀀스 삭제
+drop SEQUENCE dep_seq;
+
+select * from user_tables;
+select * from user_constraints;
+select * from user_cons_columns;
+select * from user_sequences;
+select * from user_indexes where table_name = 'EMPLOYEES';
+select * from 
+

@@ -35,3 +35,5 @@
 **/*.rvi
 **/.#*
 **/CVS/**
+/spring_model/
+/model/

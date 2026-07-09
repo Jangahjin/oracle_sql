@@ -32,4 +32,13 @@ TEMPORARY TABLESPACE temp;
 grant CONNECT, RESOURCE to javauser;
 
 -- 접속 요청을 진행하면 된다.
+
+-- 시퀀스 설정
+create SEQUENCE emp_seq
+start with 1
+INCREMENT by 1
+minvalue 0
+MAXVALUE 1000
+NOCYCLE
+CACHE 2;
  

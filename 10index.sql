@@ -28,8 +28,7 @@ create unique index ix_emp01_email
 on emp01(email);
 desc emp01;
 
-drop index index_name;
+drop index ix_emp01_email;
 
-CREATE UNIQUE INDEX index_name 
-ON table_name (column_name);
+
 
